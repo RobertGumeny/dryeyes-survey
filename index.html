@@ -7,69 +7,120 @@
     <title>Dry Eyes Survey</title>
   </head>
   <body>
-    <div>
-      <form id="form">
-        <label class="Label" for="dryEyes">Sensitive to light.</label> <br />
-        <p class="better">
-          <input type="radio" name="dryEyes1" value="0" /> Never<br />
-          <input type="radio" name="dryEyes1" value="1" /> Sometimes <br />
-          <input type="radio" name="dryEyes1" value="2" /> Mostly <br />
-          <input type="radio" name="dryEyes1" value="3" /> Often <br />
-          <input type="radio" name="dryEyes1" value="4" /> Constantly <br />
-        </p>
-
-        <label for="dryEyes">Blurred Vision.</label> <br />
-        <p class="better">
-          <input type="radio" name="dryEyes2" value="0" /> Never <br />
-          <input type="radio" name="dryEyes2" value="1" /> Sometimes <br />
-          <input type="radio" name="dryEyes2" value="2" /> Mostly <br />
-          <input type="radio" name="dryEyes2" value="3" /> Often <br />
-          <input type="radio" name="dryEyes2" value="4" /> Constantly <br />
-        </p>
-
-        <label for="dryEyes">Driving at night.</label> <br />
-        <p class="better">
-          <input type="radio" name="dryEyes3" value="0" /> Never <br />
-          <input type="radio" name="dryEyes3" value="1" /> Sometimes <br />
-          <input type="radio" name="dryEyes3" value="2" /> Mostly <br />
-          <input type="radio" name="dryEyes3" value="3" /> Often <br />
-          <input type="radio" name="dryEyes3" value="4" /> Constantly <br />
-        </p>
-
-        <label for="dryEyes">Watching TV (or similar).</label> <br />
-        <p class="better">
-          <input type="radio" name="dryEyes4" value="0" /> Never <br />
-          <input type="radio" name="dryEyes4" value="1" /> Sometimes <br />
-          <input type="radio" name="dryEyes4" value="2" /> Mostly <br />
-          <input type="radio" name="dryEyes4" value="3" /> Often <br />
-          <input type="radio" name="dryEyes4" value="4" /> Constantly <br />
-        </p>
-
-        <label for="dryEyes">Windy Areas.</label> <br />
-        <p class="better">
-          <input type="radio" name="dryEyes5" value="0" /> Never <br />
-          <input type="radio" name="dryEyes5" value="1" /> Sometimes <br />
-          <input type="radio" name="dryEyes5" value="2" /> Mostly <br />
-          <input type="radio" name="dryEyes5" value="3" /> Often <br />
-          <input type="radio" name="dryEyes5" value="4" /> Constantly <br />
-        </p>
-
-        <label for="dryEyes"> Low humidity areas/places.</label> <br />
-        <p class="better">
-          <input type="radio" name="dryEyes6" value="0" /> Never <br />
-          <input type="radio" name="dryEyes6" value="1" /> Sometimes <br />
-          <input type="radio" name="dryEyes6" value="2" /> Mostly <br />
-          <input type="radio" name="dryEyes6" value="3" /> Often <br />
-          <input type="radio" name="dryEyes6" value="4" /> Constantly <br />
-        </p>
-
-        <button class="btn-submit" type="submit">GET SCORE</button>
-      </form>
-    </div>
-
-    <div>
-      <p id="scoreDisplay"></p>
-    </div>
+    <form id="form">
+      <div>
+        <p> Have you experienced any of the following in the last week:</p>
+      </div>
+      <label class="Label" for="dryEyes">Sensitive to light?</label> <br>
+      <p class=" better"><input type="radio" name="dryEyes1" value="0"> Never<br>
+        <input type="radio" name="dryEyes1" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes1" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes1" value="3"> Often <br>
+        <input type="radio" name="dryEyes1" value="4"> Constantly <br>
+      </p>
+  
+      <label class="Label" for="dryEyes">Eyes that feel gritty?</label> <br>
+      <p class=" better"><input type="radio" name="dryEyes2" value="0"> Never<br>
+        <input type="radio" name="dryEyes2" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes2" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes2" value="3"> Often <br>
+        <input type="radio" name="dryEyes2" value="4"> Constantly <br>
+      </p>
+  
+      <label class="Label" for="dryEyes">Painful or sore eyes?</label> <br>
+      <p class=" better"><input type="radio" name="dryEyes3" value="0"> Never<br>
+        <input type="radio" name="dryEyes3" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes3" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes3" value="3"> Often <br>
+        <input type="radio" name="dryEyes3" value="4"> Constantly <br>
+      </p>
+  
+      <label for="dryEyes">Blurred Vision?</label> <br>
+      <p class="better"> <input type="radio" name="dryEyes4" value="0"> Never <br>
+        <input type="radio" name="dryEyes4" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes4" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes4" value="3"> Often <br>
+        <input type="radio" name="dryEyes4" value="4"> Constantly <br>
+      </p>
+  
+      <label class="Label" for="dryEyes">Poor vision?</label> <br>
+      <p class=" better"><input type="radio" name="dryEyes5" value="0"> Never<br>
+        <input type="radio" name="dryEyes5" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes5" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes5" value="3"> Often <br>
+        <input type="radio" name="dryEyes5" value="4"> Constantly <br>
+      </p>
+  
+      <div>
+        <p> Have problems with your eyes limited you in performing any of the following in the last week:</p>
+      </div>
+  
+      <label for="dryEyes">Reading?</label> <br>
+      <p class="better"><input type="radio" name="dryEyes6" value="0"> Never <br>
+        <input type="radio" name="dryEyes6" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes6" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes6" value="3"> Often <br>
+        <input type="radio" name="dryEyes6" value="4"> Constantly <br>
+      </p>
+  
+      <label for="dryEyes">Driving at night?</label> <br>
+      <p class="better"><input type="radio" name="dryEyes7" value="0"> Never <br>
+        <input type="radio" name="dryEyes7" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes7" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes7" value="3"> Often <br>
+        <input type="radio" name="dryEyes7" value="4"> Constantly <br>
+      </p>
+  
+      <label for="dryEyes">Working with a computer or (ATM)?</label> <br>
+      <p class="better"><input type="radio" name="dryEyes8" value="0"> Never <br>
+        <input type="radio" name="dryEyes8" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes8" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes8" value="3"> Often <br>
+        <input type="radio" name="dryEyes8" value="4"> Constantly <br>
+      </p>
+  
+      <label for="dryEyes">Watching TV?</label> <br>
+      <p class="better"><input type="radio" name="dryEyes9" value="0"> Never <br>
+        <input type="radio" name="dryEyes9" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes9" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes9" value="3"> Often <br>
+        <input type="radio" name="dryEyes9" value="4"> Constantly <br>
+      </p>
+  
+      <div>
+        <p>Have your eyes felt uncomfortable in any of the following situations during the last week:</p>
+      </div>
+  
+      <label for="dryEyes">Windy Conditions?</label> <br>
+      <p class="better"><input type="radio" name="dryEyes10" value="0"> Never <br>
+        <input type="radio" name="dryEyes10" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes10" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes10" value="3"> Often <br>
+        <input type="radio" name="dryEyes10" value="4"> Constantly <br>
+      </p>
+  
+      <label for="dryEyes"> Low humidity areas/places?</label> <br>
+      <p class="better"><input type="radio" name="dryEyes11" value="0"> Never <br>
+        <input type="radio" name="dryEyes11" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes11" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes11" value="3"> Often <br>
+        <input type="radio" name="dryEyes11" value="4"> Constantly <br>
+      </p>
+      <label for="dryEyes">Areas that are air conditioned?</label> <br>
+      <p class="better"><input type="radio" name="dryEyes12" value="0"> Never <br>
+        <input type="radio" name="dryEyes12" value="1"> Sometimes <br>
+        <input type="radio" name="dryEyes12" value="2"> Mostly <br>
+        <input type="radio" name="dryEyes12" value="3"> Often <br>
+        <input type="radio" name="dryEyes12" value="4"> Constantly <br>
+      </p>
+  
+      <button class="btn-submit" type="submit">GET SCORE</button>
+    </form>
+  </div>
+  
+  <div>
+    <p id="scoreDisplay"></p>
+  </div>
     <script src="app.js"></script>
   </body>
 </html>
