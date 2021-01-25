@@ -61,7 +61,7 @@ function scoreTotal() {
     parseInt(questionElevenScore) +
     parseInt(questionTwelveScore);
 
-  adjustedScore = (totalScore * (100 / 48)).toFixed(2);
+  adjustedScore = Math.round(totalScore / 4);
 
   scoreDisplay.innerHTML = ` ${adjustedScore}`;
 }
