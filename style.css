@@ -27,14 +27,12 @@ form {
 }
 
 .btn-submit {
-  width: 150px;
-  height: 30px;
+  padding: 5px 30px;
   background-color: white;
   color: black;
-  border: 2px solid #071013; /* Green */
+  border: 2px solid #071013;
   border-radius: 12px;
-  margin-left: 4px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .btn-submit:hover {
   background-color: #234572;
