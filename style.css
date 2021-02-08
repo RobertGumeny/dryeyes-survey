@@ -6,16 +6,16 @@ body {
 
 h3 {
   font-size: 18px;
-  color: #165e63;
+  color: #000000;
 }
 
 label {
   font-size: 18px;
-  color: #135155;
+  color: #333333;
 }
 
 form {
-  max-height: 2800px;
+  max-height: 2300px;
   max-width: 300px;
   padding-left: 5px;
 }
@@ -30,12 +30,12 @@ form {
   padding: 5px 30px;
   background-color: white;
   color: black;
-  border: 2px solid #071013;
+  border: 2px solid #333333;
   border-radius: 12px;
   font-size: 16px;
 }
 .btn-submit:hover {
-  background-color: #234572;
+  background-color: #333333;
   color: white;
 }
 
